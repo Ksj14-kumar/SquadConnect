@@ -1,0 +1,26 @@
+const EVENTS = {
+    ROOMS: "rooms",
+    CREATE_ROOM: "create_room",
+    ERROR_ON_ROOM_CREATION: "error_on_room_creation",
+    UPDATE_ROOM_ON_CREATE: "update_room_on_create",
+    ON_JOIN: "on_join",
+    IN_ROOM: "in_room",
+    USER_IN_ROOM: "user_in_room",
+    NOT_ROOM_EXIT: "not_room_exit",
+    NEW_USER_ADDED: "newUserAdded",
+    NEW_USER_ADDED_SELF: "newUserAdded_self",
+    NEW_USER_ADDED_TO_ALL: "newUserAdded_ALL",
+    ON_LEAVE_ROOM: "onLeaveRoom",
+    BROADCAST_MESSAGE_WHEN_USER_LEAVE: "userleftRoom",
+    ALL_USER_IN_CURRENT_ROOM: "alluserInCurrentRoom",
+    MESSAGE_SEND: "send_msg",
+    LOGOUT: "logout",
+    ON_TYPING_START: "onTyping-start",
+    ON_TYPING_STOP: "onTyping-stop",
+    GET_MESSAGE: "get_msg",
+    NOT_FILE_ALLOW: "fileNotAllowed",
+    ADMIN_INFO: "admin_info",
+    KICKOUT: "kickout",
+    BROADCAST_MESSAGE_TO_GLOBAL_USERS:"userleaveRoom"
+}
+module.exports = EVENTS

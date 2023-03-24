@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+/*overflow-y:hidden*/
+}
+
+
+
+#live_users_in_room::-webkit-scrollbar {
+  width: 6px;
+  background:#fff;
+  border-radius:5px;
+}
+
+/* Track */
+#live_users_in_room::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius:5px;
+  background:linear-gradient(to right, rgb(29, 78, 216), rgb(30, 64, 175), rgb(17, 24, 39));
+  
+}
+
+/* Handle */
+#live_users_in_room::-webkit-scrollbar-thumb {
+  background: #570A57;
+  border-radius:5px;
+}
+
+/* Handle on hover */
+#live_users_in_room::-webkit-scrollbar-thumb:hover {
+  /*background: red;*/
+}
+
+
+
+#messageBox::-webkit-scrollbar {
+  width: 6px;
+  background:#fff;
+  border-radius:5px;
+}
+
+/* Track */
+#messageBox::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius:5px;
+  background:linear-gradient(to right, rgb(29, 78, 216), rgb(30, 64, 175), rgb(17, 24, 39));
+  
+}
+
+/* Handle */
+#messageBox::-webkit-scrollbar-thumb {
+  background: #570A57;
+  border-radius:5px;
+}
+
+
+
+#roomContainer::-webkit-scrollbar {
+  width: 6px;
+  background:#fff;
+  border-radius:5px;
+}
+
+/* Track */
+#roomContainer::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius:5px;
+  background:linear-gradient(to right, rgb(29, 78, 216), rgb(30, 64, 175), rgb(17, 24, 39));
+  
+}
+
+/* Handle */
+#roomContainer::-webkit-scrollbar-thumb {
+  background: #570A57;
+  border-radius:5px;
+}
+
+aside.EmojiPickerReact.epr-main{
+border-bottom-left-radius: 0;
+border-bottom-right-radius: 0;
+}
